@@ -32,3 +32,7 @@ The script uses a few excellent programs:
 * python3: should be available for installation from a package manager (apt-get install python3 python3-pip)
 * pyqt4: GUI module, should be available for installation from a package manager (apt-get install python-qt4)
 * requests: python module (pip3 install requests)
+
+## Use Example (GIF)
+
+[Imgur](https://i.imgur.com/HrGqFzR.gifv)
