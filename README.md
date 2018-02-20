@@ -35,4 +35,4 @@ The script uses a few excellent programs:
 
 ## Use Example (GIF)
 
-[Imgur](https://i.imgur.com/HrGqFzR.gifv)
+![metax example](https://i.imgur.com/HrGqFzR.gif)
