@@ -1,6 +1,7 @@
 # Metax
 Python GUI, lets you scan a directory for GPS location metadata in files, visualize each result from list, showing generated map next to original photo
 
+
 ## Description
 
 Metax is a python GUI script, which lets you scan a directory for GPS location metadata (using exiftool).
@@ -21,6 +22,26 @@ The script uses a few excellent programs:
 * Map Quest API (https://wiki.openstreetmap.org/wiki/Main_Page)
 
 
+## Demonstration (GIF)
+
+![metax example](https://i.imgur.com/HrGqFzR.gif)
+
+
+## Installation
+
+**NOTE:** The program was tested and works on kali linux
+
+* The installation script gets all required dependencies (written below), makes symbolic link of program in /usr/local/bin 
+
+* Go to dir where you want metax data to be permanently, then run the following command: \
+``` sudo apt-get install git && git clone 'https://github.com/BluesNote1/metax' && cd metax && chmod +x install.sh && ./install.sh ```
+
+* GO TO "https://developer.mapquest.com/user/register" \
+**REGISTER AND GENERATE A PERSONAL API KEY**, put it in "map_quest_api.key" file
+
+If everthing was installed successfully, you can run the program by typing 'metax' in a terminal
+
+
 ## Dependencies
 
 **NOTE:** The script was tested and used on kali linux
@@ -34,6 +55,3 @@ The script uses a few excellent programs:
 * pyqt4: GUI module, should be available for installation from a package manager (apt-get install python-qt4)
 * requests: python module (pip3 install requests)
 
-## Use Example (GIF)
-
-![metax example](https://i.imgur.com/HrGqFzR.gif)
