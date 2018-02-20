@@ -31,5 +31,4 @@ The script uses a few excellent programs:
 * exiftool: should be available for installation from a package manager (already installed on kali)
 * python3: should be available for installation from a package manager (apt-get install python3 python3-pip)
 * pyqt4: GUI module, should be available for installation from a package manager (apt-get install python-qt4)
-* pyperclip: python module (pip3 install pyperclip)
 * requests: python module (pip3 install requests)
