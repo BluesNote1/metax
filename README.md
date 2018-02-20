@@ -25,7 +25,8 @@ The script uses a few excellent programs:
 
 **NOTE:** The script was tested and used on kali linux
 
-* GO TO "https://developer.mapquest.com/user/register" **REGISTER AND GENERATE A PERSONAL API KEY**, put it in "map_quest_api.key" file
+* GO TO "https://developer.mapquest.com/user/register" \
+**REGISTER AND GENERATE A PERSONAL API KEY**, put it in "map_quest_api.key" file
 
 * fdupes: should be available for installation from a package manager (apt-get install fdupes)
 * exiftool: should be available for installation from a package manager (apt-get install libimage-exiftool-perl)
