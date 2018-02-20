@@ -28,7 +28,7 @@ The script uses a few excellent programs:
 * GO TO "https://developer.mapquest.com/user/register" **REGISTER AND GENERATE A PERSONAL API KEY**, put it in "map_quest_api.key" file
 
 * fdupes: should be available for installation from a package manager (apt-get install fdupes)
-* exiftool: should be available for installation from a package manager (already installed on kali)
+* exiftool: should be available for installation from a package manager (already installed on kali, apt-get install libimage-exiftool-perl)
 * python3: should be available for installation from a package manager (apt-get install python3 python3-pip)
 * pyqt4: GUI module, should be available for installation from a package manager (apt-get install python-qt4)
 * requests: python module (pip3 install requests)
