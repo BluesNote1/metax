@@ -23,7 +23,6 @@
 
 import os
 import sys
-import pyperclip
 import shutil
 from metax_tools import *
 from PyQt4.QtCore import *
@@ -36,7 +35,7 @@ class TraceFilesDlg(QDialog,
         super(TraceFilesDlg, self).__init__(parent)
         # Sets Qt Designer things
         self.setupUi(self) 
-        # Disable empty button
+        # Disable scan button when empty text field
         self.updateUi()
         # Changing python dir to program binary dir
         os.chdir(os.path.dirname(os.path.realpath(__file__)))
@@ -54,7 +53,7 @@ class TraceFilesDlg(QDialog,
         # Setting
         self.scan_button.setEnabled(True)
 
-    # Enables/disables button    
+    # Enables/disables scan button    
     def updateUi(self):
         '''Enables/disables button'''
         enable = ''
