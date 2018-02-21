@@ -29,7 +29,7 @@ The script uses a few excellent programs:
 
 ## Installation
 
-**NOTE:** The program was tested and works on kali linux
+**NOTE:** The program was tested on kali linux
 
 * The installation script gets all required dependencies (written below), makes symbolic link of program in /usr/local/bin 
 
