@@ -16,7 +16,7 @@ Button to copy place name of file (usually of photo)
 
 The program minimize API use: copies existing maps for same location, scan each file once according to its content sig (with MD5)
 
-The script uses a few excellent programs:
+The script uses a few excellent tools:
 * exiftool by Phil Harvey (https://sno.phy.queensu.ca/~phil/exiftool/)
 * fdupes by Adrian Lopez (https://github.com/adrianlopezroche/fdupes)
 * Map Quest API (https://wiki.openstreetmap.org/wiki/Main_Page)
