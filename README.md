@@ -12,7 +12,7 @@ Optionally use duplicates removal (by MD5 checksums), on files in chosen dir (us
 Optionally extract zip files (both available with checkboxes)
 
 Button to copy coordinates of file \
-Button to copy place name of file (usually of photo)
+Button to copy place name of file (usually where the photo was taken)
 
 The program minimize API use: copies existing maps for same location, scan each file once according to its content sig (with MD5)
 
