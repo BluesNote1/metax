@@ -1,10 +1,10 @@
 # Metax
-Python GUI, lets you scan a directory for GPS location metadata in files, visualize each result from list, showing generated map next to original photo
+Python GUI, scan a directory for GPS location metadata in files, visualize each result from list, showing generated map next to original photo
 
 
 ## Description
 
-Metax is a python GUI script, which lets you scan a directory for GPS location metadata (using exiftool).
+Metax is a python GUI script, which scans a directory for GPS location metadata (using exiftool).
 The files with location data get visually listed, you can see the original picture (BMP, JPEG, JPG, PNG, GIF, and more...)
 next to the corresponding map image of coordinates of each file with place name above it (using Map Quest API).
 
