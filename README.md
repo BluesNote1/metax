@@ -15,7 +15,7 @@ next to the corresponding map image of coordinates of each file with place name 
 * Button to copy coordinates of file.
 * Button to copy place name of file (where the photo was taken).
 
-The program minimize API use: copies existing maps for same location, scan each file once according to its content sig (with MD5)
+The program minimizes API use: copies existing maps for same location, scan each file once according to its content sig (with MD5)
 
 The script uses a few excellent tools:
 * exiftool by Phil Harvey (https://sno.phy.queensu.ca/~phil/exiftool/)
