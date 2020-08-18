@@ -8,11 +8,12 @@ Metax is a python GUI script, which scans a directory for GPS location metadata 
 The files with location data get visually listed, you can see the original picture (BMP, JPEG, JPG, PNG, GIF, and more...)
 next to the corresponding map image of coordinates of each file with place name above it (using Map Quest API).
 
-Optionally use duplicates removal (by MD5 checksums), on files in chosen dir (using fdupes), \
+Optionally use duplicates removal (by MD5 checksums), on files in chosen directory (using fdupes), \
 Optionally extract zip files (both available with checkboxes)
 
 Button to copy coordinates of file \
-Button to copy place name of file (usually where the photo was taken)
+Button to copy place name of file 
+(usually where the photo was taken)
 
 The program minimize API use: copies existing maps for same location, scan each file once according to its content sig (with MD5)
 
@@ -33,7 +34,7 @@ The script uses a few excellent tools:
 
 * The installation script gets all required dependencies (written below), makes symbolic link of program in /usr/local/bin 
 
-* Go to dir where you want metax data to be permanently, then run the following command: \
+* Go to directory where you want metax data to be permanently, then run the following command: \
 ``` sudo apt-get install git && git clone 'https://github.com/BluesNote1/metax' && cd metax && chmod +x install.sh && ./install.sh ```
 
 * GO TO "https://developer.mapquest.com/user/register" \
