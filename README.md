@@ -9,7 +9,8 @@ The files with location data get visually listed, you can see the original pictu
 next to the corresponding map image of coordinates of each file with place name above it (using Map Quest API).
 
 Optionally use duplicates removal (by MD5 checksums), on files in chosen directory (using fdupes), \
-Optionally extract zip files (both available with checkboxes)
+Optionally extract zip files 
+(both available with checkboxes)
 
 Button to copy coordinates of file \
 Button to copy place name of file 
