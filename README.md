@@ -8,11 +8,11 @@ Metax is a python GUI script, which scans a directory for GPS location metadata 
 The files with location data get visually listed, you can see the original picture (BMP, JPEG, JPG, PNG, GIF, and more...)
 next to the corresponding map image of coordinates of each file with place name above it (using Map Quest API).
 
-* Optionally use duplicates removal (by MD5 checksums), on files in chosen directory (using fdupes), \
-* Optionally extract zip files \
+* Optionally use duplicates removal (by MD5 checksums), on files in chosen directory (using fdupes)
+* Optionally extract zip files
 (both available with checkboxes)
 
-* Button to copy coordinates of file \
+* Button to copy coordinates of file 
 * Button to copy place name of file 
 (usually where the photo was taken)
 
